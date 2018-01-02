@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import GameBoard from './GameBoard'
 
 export default class GameScreen extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ export default class GameScreen extends Component {
   render() {
     return (
       <View className="GameScreen">
-
+        <GameBoard />
 
       </View>
     );

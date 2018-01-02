@@ -10,7 +10,7 @@ export default class PieceCorral extends Component {
   render() {
     return (
       <View className="PieceCorral">
-
+      
 
       </View>
     );

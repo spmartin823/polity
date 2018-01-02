@@ -11,7 +11,7 @@ export default class Piece extends Component {
     return (
       <View className="Piece">
 
-
+        
       </View>
     );
   }

@@ -13,7 +13,7 @@ export default class App extends React.Component {
       // move format: "<team><size><sizeIdx (a or b)><originIdx(0 = pieceCorral><destinationIdx>"
       // R3a25 would be a move of a red's "first" large piece from position 2 to position 5.
       lastMove: null, 
-      authed: false,
+      authed: true,
     }
     this.passAuthStatus = this.passAuthStatus.bind(this)
   }
